@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --darkMagenta: hsl(300, 43%, 22%);
+    --softPink: hsl(333, 80%, 67%);
+    --darkGrayishMagenta: hsl(303, 10%, 53%);
+    --lightGrayishMagenta: hsl(300, 24%, 96%);
+}
+
+body{
+    font-family: Spartan, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    padding: 0 1.45rem;
+    position: relative;
+}
+
+#about{
+    margin-top: 4.73rem;
+    margin-bottom: 2.86625rem;
+}
+
+#about h1{
+    padding: 0 1.25rem;
+    margin-bottom: 1.40125rem;
+    text-align: center;
+    font-weight:700;
+    color: var(--darkMagenta);
+}
+
+#about p{
+    text-align: center;
+    padding: 0 0.4934375rem;
+    color: var(--darkGrayishMagenta);
+}
+
+#ratings{
+    width: 326px;
+    margin-bottom: 3.16375rem;
+}
+
+.rating-card{
+    text-align: center;
+    padding: 0.408125rem 0;
+    font-weight: 500;
+    color: var(--darkMagenta);
+    margin-bottom: 6.53px;
+    background-color: var(--lightGrayishMagenta);
+    border-radius: 5px;
+}
+
+.rating-stars{
+    margin-bottom: 0.408125rem;
+}
+
+.review-card{
+    padding: 39.46px;
+    background: var(--darkMagenta);
+    margin-bottom: 1.04125rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.review-card img{
+    width: 46px;
+    border-radius: 50%;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.84rem;
+}
+
+.info{
+    margin-left: 1.485rem;
+}
+
+.name{
+    font-weight: 500;
+}
+
+.verified{
+    color: var(--softPink);
+}
+
+#bg-pattern-top-mobile{
+    position: absolute;
+    top: -4.73rem;
+    left:0;
+}
+
+#bg-pattern-bottom-mobile{
+    position: absolute;
+    bottom:0;
+    right: 0;
+}
