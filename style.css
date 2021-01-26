@@ -53,6 +53,7 @@ body{
     margin-bottom: 6.53px;
     background-color: var(--lightGrayishMagenta);
     border-radius: 5px;
+    width:100%;
 }
 
 .rating-stars{
